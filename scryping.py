@@ -11,6 +11,7 @@ for el in html.select(".styles_wrapper__Q06m9"):
     price = el.select(".styles_price__usd__HpXMa")
     print(title[0].text)
     print(titles[0].text)
-    print(price)
+    for i in price:
+        print(i.text)
     print("_______")
 input()
